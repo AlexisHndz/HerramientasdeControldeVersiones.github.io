@@ -1,133 +1,197 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Keywords" content="Diseño, Design, branding, creación de logo, estampados de camisetas, marca personal, paquetería, personalizados">
-    <title>Herramientas de control de versiones</title>
-    <link rel="shortcut icon" href="Imagenes/UES.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <!--Grupo de investigación y desarrollo 
-        Gerbert Alexis Hernández Morales HM22051
-        Andy Steven Rolin Reyes   RR23056
-        Harold Daniel Miranda Zelaya  MZ14012
-         Liliana Abigail Martínez Orellana  MO23015
-     -->
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/UES.png">
+    <link rel="stylesheet" href="Styles.css" />
+    <title>Herramientas de control de versiones | Grupo 6</title>
+    <!--Desarrollado por:
+    - Gerbert Alexis Hernández Morales HM22051
+    - José Roberto Zelada Orantes ZO23004
+    - Cinthia Karina Umanzor Chávez UC23001
+    -->
+  </head>
+  <body>
+    <nav>
+      
+      <div class="nav__logo"> <img src ="assets/ues.svg" width="100" height="100"/> </div>
+      <div class="g_6"><h1>Grupo 6</h1></div>
+      <ul class="nav__links">
+        <li> <a href="#control_de_versiones" class="link">Herramientas de control de versiones</a></li>
+          <li> <a href="#Realidad_virtual" class="link">Realidad Virtual</a></li>
+          <li> <a href="#ventajas" class="link">Ventajas de herramientas
+            <br>de control de versiones</a></li>
+        <li class="link">video</li>
+        
+      </ul>
+    </nav>
     <header>
-     
-    </header>
-
-    <section class="home">
-     <img src="Imagenes/BG2.jpg" class="img">
-        <div class="content">
-            <h1>Herramientas de control de versiones<br></h1>
-            <p>Conozcamos más sobre los sitemas de control de versiones</p>
+      <header class="header content">
+        <div class="header-video">
+          <video src="assets/video/servers1200.mp4" autoplay="true" muted="true"
+          loop="true" id="Lan_video"></video>
         </div>
+        <div class="header-overlay"></div>
+        <div class="header-content">
+          <h1>Herramientas de 
+            <br>control de versiones</h1>
+            <p>Conozcamos más sobre los sitemas de control de versiones</p>
+            <a href="#control_de_versiones" class="btn">Leer más</a>
+        </div>
+      </header>
      
+    
+<!--Sección 1 control de versiones-->
 
-    </section>
-    <br><br>
-    <section class="content-1">
-        <div class="info">
-            <h1>¿Qué es control de versiones?</h1>
-            <br>
-            <P>El control de versiones, también conocido como gestión de código fuente o VCS, usa herramientas para dar seguimiento de las actualizaciones o modificaciones que se han realizado en el código fuente a lo largo del tiempo. El control de versiones permite la colaboración rápida y eficiente entre los desarrolladores y mantiene la integridad del código lo que produce que no exista conflictos en el código.</P>
-            <br>
-            <p>¿Cómo funciona el control de versiones?
-                Al crear un nuevo repositorio en tu sistema de control de versiones, se abre lo que se conoce como rama principal o tronco maestro. Aquí es donde la base de código ingresa al canal en el que se compila. Las ramas permiten que los desarrolladores introduzcan los cambios que deseen en su rama del código sin confirmarlos en la rama principal.
-                A lo largo del tiempo los controles de versión han ido evolucionando, clasificándolos en tres tipos: Sistema de control de versiones Locales, Centralizados y Distribuidos.
-                </p>
-                <br><br><br>
-
-                <h1>¿Por qué son importante el control de versiones?</h1>
+      <section class="content-1" id="control_de_versiones">
+      <div class="section__container">
+                <h1>¿Qué es control de versiones?</h1>
                 <br>
-                <p>Los sistemas de control de versiones son un pilar esencial de DevOps, ya que permite que los equipos colaboren e iteren el código fuente rápidamente.
-                    Trabajar con un sistema de control de versiones significara que tendrás una copia de seguridad en caso pierdas el código original, las actualizaciones estarán siempre disponible para revisión en caso esta fallara.
+                <P>El control de versiones, también conocido como gestión de código fuente o VCS, usa 
+                  herramientas para dar seguimiento de las actualizaciones o modificaciones que se han 
+                  realizado en el código fuente a lo largo del tiempo. El control de versiones permite 
+                  la colaboración rápida y eficiente entre los desarrolladores y mantiene la integridad 
+                  del código lo que produce que no exista conflictos en el código.</P>
+                <p>¿Cómo funciona el control de versiones?
+                    Al crear un nuevo repositorio en tu sistema de control de versiones, se abre lo que se conoce como rama principal o tronco maestro. Aquí es donde la base de código ingresa al canal en el que se compila. Las ramas permiten que los desarrolladores introduzcan los cambios que deseen en su rama del código sin confirmarlos en la rama principal.
+                    A lo largo del tiempo los controles de versión han ido evolucionando, clasificándolos en tres tipos: Sistema de control de versiones Locales, Centralizados y Distribuidos.
                     </p>
-                    <br><br><br>
-                    <h1>Ventajas de herramientas de control de versiones</h1>
+    <br>
+                    <h1>¿Por qué son importante el control de versiones?</h1>
                     <br>
-                    <br>
-        <div class="container">
-            <div class="card">
-                <figure></figure>
-                <div class="contenido">
-                    <h3>Seguimiento de las modificaciones</h3>
-                    <p>Permite fácilmente hacer un seguimiento de las modificaciones y fusionar el código de todo el proyecto.</p>
+                    <p>Los sistemas de control de versiones son un pilar esencial de DevOps, ya que permite que los equipos colaboren e iteren el código fuente rápidamente.
+                        Trabajar con un sistema de control de versiones significara que tendrás una copia de seguridad en caso pierdas el código original, las actualizaciones estarán siempre disponible para revisión en caso esta fallara.
+                        </p>
+                        <br><br><br>
+                        <div id="ventajas"></div>
+                        <h1>Ventajas de herramientas de control de versiones</h1>
+                        <br>
+                        <br>
+            <div class="container">
+                <div class="card">
+                    <figure></figure>
+                    <div class="contenido">
+                        <h3>Seguimiento de las modificaciones</h3>
+                        <p>Permite fácilmente hacer un seguimiento de las modificaciones y fusionar el código de todo el proyecto.</p>
+                   </div>
                </div>
-           </div>
-           <div class="card">
-             <figure></figure>
-              <div class="contenido">
-                 <h3>Comparación de archivos</h3>
-                 <p>Permite comparar los archivos e identificar las diferencias entre ellos.</p>
-              </div>
-           </div>
                <div class="card">
                  <figure></figure>
                   <div class="contenido">
-                     <h3>Resolución de problemas</h3>
-                     <p>Facilita la solución de problemas gracias a un archivo completo de los cambios registrados dentro del VCS.</p>
-                    </div>  
-                </div>
-                <div class="card">
-                    <figure></figure>
-                     <div class="contenido">
-                        <h3>Repositorio central</h3>
-                        <p>El repositorio central permite la colaboración fluida sin afectar el rendimiento individual ni los cambios en el código.</p>
-                       </div>  
-                   </div>
+                     <h3>Comparación de archivos</h3>
+                     <p>Permite comparar los archivos e identificar las diferencias entre ellos.</p>
+                  </div>
+               </div>
                    <div class="card">
-                    <figure></figure>
-                     <div class="contenido">
-                        <h3>Intercambio de archivos</h3>
-                        <p>Libera espacio y ahorra tiempo mediante un intercambio fácil de los archivos con los desarrolladores y las partes interesadas sin tener que guardar constantemente copias de los ajuste hechos al código.</p>
-                       </div>  
-                   </div>
-                   <div class="card">
-                    <figure></figure>
-                     <div class="contenido">
-                        <h3>Desarrollo distribuido</h3>
-                        <p>El desarrollo distribuido permite que los desarrolladores trabajen en el lugar que les resulte conveniente.</p>
-                       </div>  
-                   </div>
-                <!----
-                <hr width="100%" color="black" size="1px"/>
-            <hr style="color: black; background-color: black; width:75%;" />-->
-            
+                     <figure></figure>
+                      <div class="contenido">
+                         <h3>Resolución de problemas</h3>
+                         <p>Facilita la solución de problemas gracias a un archivo completo de los cambios registrados dentro del VCS.</p>
+                        </div>  
+                    </div>
+                    <div class="card">
+                        <figure></figure>
+                         <div class="contenido">
+                            <h3>Repositorio central</h3>
+                            <p>El repositorio central permite la colaboración fluida sin afectar el rendimiento individual ni los cambios en el código.</p>
+                           </div>  
+                       </div>
+                       <div class="card">
+                        <figure></figure>
+                         <div class="contenido">
+                            <h3>Intercambio de archivos</h3>
+                            <p>Libera espacio y ahorra tiempo mediante un intercambio fácil de los archivos con los desarrolladores y las partes interesadas sin tener que guardar constantemente copias de los ajuste hechos al código.</p>
+                           </div>  
+                       </div>
+                       <div class="card">
+                        <figure></figure>
+                         <div class="contenido">
+                            <h3>Desarrollo distribuido</h3>
+                            <p>El desarrollo distribuido permite que los desarrolladores trabajen en el lugar que les resulte conveniente.</p>
+                           </div>  
+                       </div>
     </section>
+
+    <!--Sección 3 realidad virtual-->
+
+    <section id="sect1" class="sect">
+      <div class ="sect1-overlay"></div>
+      <video src="assets/video/VR.mp4" autoplay="true" muted="true" loop="true" id="video_vr"></video>
+      <div class="vr_titulo"><h1>Realidad Virtual</h1></div>
+    </section>
+   
+<!--Sección 4 texto realidad virtual-->
+
+<section class="content-2" id="control_de_versiones">
+  <div class="section__container">
+            <h1>¿Qué es la Realidad Virtual?</h1>
+            <br>
+            <P>La realidad virtual (VR) ha transformado significativamente la forma en que interactuamos con 
+              el mundo digital. Esta tecnología ofrece experiencias inmersivas que superan las 
+              capacidades de las interfaces tradicionales, permitiendo a los usuarios sumergirse 
+              completamente en entornos digitales. Uno de los lenguajes de programación más utilizados en el 
+              desarrollo de aplicaciones de VR es C#. En combinación con Unity, un motor de desarrollo ampliamente 
+              utilizado, C# facilita la creación de experiencias virtuales complejas y altamente interactivas 
+              (Unity Technologies, 2023).</P>
+
+              <p>Unity es una de las herramientas más populares para el desarrollo de aplicaciones de realidad virtual
+                 y utiliza C# como su principal lenguaje de scripting. La capacidad de C# para manejar tareas complejas
+                  y su integración con Unity lo convierten en una opción ideal para los desarrolladores que buscan crear
+                  aplicaciones inmersivas. La combinación de estas herramientas ha permitido el desarrollo de videojuegos
+                  que han alcanzado gran popularidad, como "Beat Saber" y "Superhot VR", los cuales han sido creados con
+                  Unity y C#, demostrando la versatilidad y eficiencia de esta combinación</p>
+
+                  <p>En el ámbito de la medicina, las aplicaciones de VR desarrolladas con C# están revolucionando la 
+                    formación y el tratamiento de los pacientes. Por ejemplo, los simuladores quirúrgicos en VR permiten
+                    a los estudiantes de medicina practicar procedimientos complicados sin poner en riesgo la vida de los 
+                    pacientes. Un estudio realizado por Patel et al. (2021) mostró que los estudiantes que utilizaron 
+                    simuladores de VR para practicar cirugías mejoraron significativamente sus habilidades en comparación con 
+                    aquellos que utilizaron métodos de entrenamiento tradicionales. Además, las aplicaciones de VR también se 
+                    están utilizando para tratar trastornos de salud mental, como el trastorno de estrés postraumático (TEPT) 
+                    y las fobias. En este campo, las aplicaciones desarrolladas con C# permiten a los terapeutas exponer a los
+                     pacientes a situaciones controladas y seguras, ayudando a reducir los síntomas de estos trastornos 
+                     (Garcia et al., 2020).</p>
+                     <p> Cómo hemos visto y analizado, la realidad tiene muchas aplicaciones en nuestra vida cotidiana, ha llegado
+                      para simplificar nuestras tareas y hacer de nuestro mundo digital algo entretenido
+                     </p>
+  </div>
+ 
+</section>    
+<hr color="black" width="800px">
+
+<!--Sección video-->
+
     <section class="video-container">  
-        <h1>Video sobre la investigación.</h1>
-      <div class="container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4kLviL8XwAI?si=y1mlo4IQ9pKaTgmr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
-          </div>
-          <br>
-      </div>
-      <div>
-        <a download="Herramientas de control de versiones" href="Documentos/Herramientas de control de versiones.pdf" class="btn-descarga icon-descarga" >Descargar investigación</a>  
-      </div>
+      <h1>Video sobre la investigación.</h1>
       <br>
-    </section>
-  <footer>
-    <div class="section__container">
-      <p><img src="Imagenes/ues.svg"></p>
-      <br>
+    <div style="text-align: center;"class="container">
+      <video width="1080" height="720" controls>
+          <source src="assets/video/" type="video/mp4">
+        </video>
+      </div>
+        <br>
+    <div>
+      <a download="Herramientas de control de versiones" href="assets/Documentos/Documento investigación.docx" class="btn-descarga icon-descarga" >Descargar investigación</a>  
     </div>
     <br>
-    <div class="uni">
-        <P>Universidad de El Salvador</P>
-        <br>
-        <p>Presentado por: Gerbert Hernández, Andy Rolin, Harold Miranda, Liliana Martínez.
-        </p>
-        <br>
-    </div>
-    
-  </footer>
+  </section>
 
+<!--Footer-->
+    <footer>
+      <div class="section__container">
+        <section class="img"><img src="assets/UES BLANCO.png"></section>
+        <h3>Universidad de El Salvador</h3>
+        <h5>Facultad de Ingeniería y Arquitectura, Ingeniería de sistemas informáticos</h5>
+        <p>
+          Desarrollado por: Gerbert Alexis Hernández Morales - José Roberto Zelada Orantes - Cinthia Karina Umanzor Chávez.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
